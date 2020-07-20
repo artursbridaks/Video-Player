@@ -1,0 +1,9 @@
+.video {
+    border: 2px solid black;
+    width: 100%;
+    margin-top: 2%;
+    border-radius: 1%;
+    object-fit: cover;
+  }
+
+  

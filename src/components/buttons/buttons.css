@@ -1,0 +1,103 @@
+span.play {
+  background: url('./play.svg');
+  background-size: contain;
+  cursor: pointer;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}
+
+span.pause {
+  background: url('./pause.svg');
+  background-size: contain;
+  cursor: pointer;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}
+
+span.stop {
+  background: url('./stop.svg');
+  background-size: contain;
+  cursor: pointer;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}
+
+span.fullscreen {
+  background: url('./fullscreen.svg');
+  background-size: contain;
+  cursor: pointer;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}
+
+
+span.mute {
+  background: url('./mute.svg');
+  background-size: contain;
+  cursor: pointer;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+}
+
+input[type="range"]:focus {
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  background: rgb(61, 148, 199);
+  height: 5px;
+}
+
+input[type="range"]::-moz-range-track {
+  background: rgb(61, 148, 199);
+  height: 5px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 15px;
+  width: 15px;
+  background: rgb(123, 101, 151);
+  margin-top: -5px;
+  border-radius: 50%;
+ }
+ 
+ input[type="range"]::-moz-range-thumb {
+  height: 15px;
+  width: 15px;
+  background: rgb(123, 101, 151);
+  margin-top: -5px;
+  border-radius: 50%;
+ }
+
+span.volume {
+  background: url('./volume.svg');
+  background-size: contain;
+  color: rgb(61, 148, 199);
+  cursor: pointer;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}
+
+#buttons {
+  border: 2px solid black;
+  margin-top: 1%;
+  padding: 10px;
+  padding-left: 6.5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  position: relative;
+  left: 43%;
+  justify-content: center;
+  justify-items: center;
+}
